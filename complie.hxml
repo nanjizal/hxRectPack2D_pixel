@@ -1,0 +1,15 @@
+-cp src
+-main Main
+-neko main.n
+# -lib hxGeomAlgo
+-lib hxRectPack2D
+-lib hxbit
+#-lib trilateral
+#-lib trilateralXtra
+#-lib justDrawing
+#-lib pixelDrawing
+-lib hxPixels
+-lib format
+-D pixel
+-D Sys
+-cmd neko main.n
