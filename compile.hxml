@@ -1,0 +1,10 @@
+-cp src
+-main Main
+-neko main.n
+-lib folder
+-lib hxRectPack2D
+-lib hxPixels
+-lib format
+-D pixel
+-D Sys
+-cmd neko main.n 
