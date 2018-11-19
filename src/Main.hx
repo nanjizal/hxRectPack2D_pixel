@@ -7,7 +7,6 @@ import hxRectPack2D.atlas.AtlasBuilder;
 import folder.Folder;
 
 import hxRectPack2D.output.TP;
-//import haxe.Json;
 
 #if neko
 import neko.vm.Module;
@@ -26,7 +25,6 @@ class Main {
     function new(){
         newFolder = assets + outputFolder;
         loadAndPrepareImages();
-        //reconstruct();
     }
     function loadAndPrepareImages(){
         var arrImgSpec  = folder.getImages( assets );
