@@ -21,4 +21,8 @@ class Wrapper {
     function drawCW( fx: Int, fy: Int, fromImg: Wrapper ): Void {
         Helper.drawImage32ClockWise( 0, 0, fx, fy, pixels, fromImg.pixels );
     }
+    public inline // extract flipped
+    function drawACW( fx: Int, fy: Int, fromImg: Wrapper ): Void {
+        Helper.drawImage32AntiClockWise( 0, 0, fx, fy, pixels, fromImg.pixels );
+    }
 }
